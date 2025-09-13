@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <titel></titel>
+</head>
+<body>
+<script>
+var count=0;
+for (var n=1;n<=100;n++){
+    if(n%2==0){
+    document.write(n+"<br>");
+    count++;
+
+}
+}
+document.write(count +"<br>");
+
+
+var person=[{name:"nithin",Age:25},{name:"mohan",Age:26},{name:"srijan",Age:24}];
+for(var i=0;i<person.length;i++){
+    if (person[i].Age>=18){
+    document.write(person[i].name +"<br>");
+      document.write(person[i].Age +"<br>");
+}
+};
+
+for (var i=1;i<=3;i++){
+    for (var j=1;j<=3;j++){
+        document.write(i);
+    }
+document.write("<br>");
+}
+
+for (var i=1;i<=4;i++){
+    for (var j=1;j<=4;j++){
+       
+        document.write(j);
+    }
+    document.write("<br>");
+}
+
+for (var i=3;i>=1;i--){
+    for (var j=1;j<=3;j++){
+
+        document.write(i);
+    
+    }
+    document.write("<br>")
+}
+
+   
+
+</script>
+</body>
+</html>
