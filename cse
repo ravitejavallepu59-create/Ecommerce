@@ -1,5 +1,49 @@
-the is a cse file
-these is a second line in cse
-icse
-hello raviteja
-learning git
+<!DOCTYPE html>
+<html>
+<head>
+    <title>studentdetails</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+<diV class="card w-25 m-auto">
+<div class="card-header text-center border border-primary border-3 ">
+STUDENT DETAILS
+</div>
+<div class="card-body  border border-primary border-3">
+<div class="mb-3">
+    <label>NAME</label>
+    <input placeholder="ENTER NAME" class="form-control border border-primary border-3"/>
+</div>
+<div class="mb-3">
+    <label>FATHER NAME</label>
+    <input  placeholder="ENTER FATHER NAME"  class="form-control border border-primary border-3"/>
+</div>
+<div class="mb-3">
+    <label>ROLL NO</label>
+    <input  placeholder="ENTER ROLL NO"  class="form-control border border-primary border-3"/>
+</div>
+<div class="mb-3">
+    <label>GROUP</label>
+    <input  placeholder="ENTER GROUP" class="form-control border border-primary border-3"/>
+</div>
+<div class="mb-3">
+    <label>MOBILE NO</label>
+    <input  placeholder="ENTER MOBILE"  class="form-control border border-primary border-3"/>
+</div>
+</div>
+
+<div class="card-footer btn-group form-control border border-primary border-3">
+<button CLASS="btn btn-primary">reset</button>
+<button CLASS="btn btn-success">submit</button>
+</div>
+
+
+
+</diV>
+
+
+</body>
+
+
+</html>
