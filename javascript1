@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <titel></titel>
+    <titel> ITEARTIVE STATEMENTS
+</titel>
 </head>
 <body>
 <script>
@@ -53,3 +54,4 @@ for (var i=3;i>=1;i--){
 </script>
 </body>
 </html>
+
